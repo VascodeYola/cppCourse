@@ -32,8 +32,8 @@ int main()
     {
         float angle = float(2 * M_PI * pointNo) / float(pointCount);
         sf::Vector2f point = {
-            200 * std::sin(6 * angel) * std::sin(angle),
-            200 * std::sin(6 * angel) * std::cos(angle)};
+            200 * std::sin(6 * angle) * std::sin(angle),
+            200 * std::sin(6 * angle) * std::cos(angle)};
         ellipse.setPoint(pointNo, point);
     }
 
